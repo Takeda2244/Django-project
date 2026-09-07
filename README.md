@@ -5,4 +5,5 @@
 ## Структура проекта
 
 - `requirements.txt`: Список зависимостей.
-- `python3 week01\day01\main.py`: Команда запуска
+- `python3 week01\day01\main.py`: Команда запуска проекта первого дня
+- `python3 week01\day02\calculator.py`: Команда запуска проекта второго дня
