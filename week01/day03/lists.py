@@ -41,7 +41,7 @@ def result_students(students_list):
     average_grade = 0
     for student in students_list:
         average_grade += student["grade"]
-    print(f"\nСредний балл равен: {average_grade / 15:.1f}")
+    print(f"\nСредний балл равен: {average_grade / len(students_list):.1f}")
 
     # Вывод топ 5 студентов
     print("\nСписок лучших пяти студентов: ")
@@ -91,3 +91,22 @@ def result_students(students_list):
 # Вызов функций
 all_students = make_students()
 result_students(all_students)
+
+# Сохранение студентов в JSON и CSV
+
+# Сохранение в формате JSON
+import json
+
+with open("students.json", "w", encoding="utf-8") as file:
+    json.dump(all_students, file, ensure_ascii=False, indent=4)
+
+# Сохранение в формате CSV  
+
+import csv
+
+with open("students.csv", "w", newline="", encoding="utf-8-sig") as file:
+    writer = csv.DictWriter(file, fieldnames=["name", "age", "group", "grade"])
+    writer.writeheader()
+    writer.writerows(all_students)
+
+print("\nДанные успешны сохранены в формате JSON и CSV")
