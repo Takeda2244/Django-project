@@ -25,3 +25,4 @@ def test_too_many_columns():
 def test_empty_row():
     row = ["Иван"]
     assert validate_student(row) is False
+
