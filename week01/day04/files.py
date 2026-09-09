@@ -15,7 +15,7 @@ try:
         print(info_json)
         
     # Путь для файла csv и его чтение
-
+    
     print("\nИнформация из csv-файла:\n")
     path_csv = Path("students.csv")
 
