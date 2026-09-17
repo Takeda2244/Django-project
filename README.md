@@ -8,7 +8,10 @@
 - `python3 week01\day01\main.py`: Команда запуска проекта первого дня
 - `python3 week01\day02\calculator.py`: Команда запуска проекта второго дня
 - `python3 week01\day03\lists.py`: Команда запуска проекта третьего дня
-- `python3 week01\day04\lists.py`: Команда запуска проекта четвертого дня
+- `python3 week01\day04\files.py`: Команда запуска проекта четвертого дня
+- `python3 week01\day06\demo.py`: Команда запуска проекта шестого дня
+- `python3 week01\day07\polimorfism.py`: Команда запуска проекта седьмого дня
+- `python c:/ProjectDjango/Project/week02/day08/vneshapi.py`: Команда запуска восьмого дня
 
 ## Для задания пятого дня
 
