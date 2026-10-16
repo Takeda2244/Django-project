@@ -12,7 +12,8 @@
 - `python3 week02\day06\demo.py`: Команда запуска проекта шестого дня
 - `python3 week02\day07\polimorfism.py`: Команда запуска проекта седьмого дня
 - `python c:/ProjectDjango/Project/week02/day08/vneshapi.py`: Команда запуска восьмого дня
-- `python3 week03\day11\itergen.py`: Команда запуска проекта одннадцатого дня
+- `python3 week03\day11\itergen.py`: Команда запуска проекта одиннадцатого дня
+- `python3 week03\day12\decor.py`: Команда запуска проекта двенадцатого дня
 
 ## Для задания пятого дня
 
